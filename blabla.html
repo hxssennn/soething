@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Homework</title>
+    <style>
+        h1 {
+            color: green;
+        }
+
+        h2 {
+            color: green;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .bold-text {
+            font-weight: bold;
+        }
+
+        .background-container {
+            background-color: lightgrey;
+            background-image: url('https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png');
+            background-size: cover;
+            padding: 10px;
+        }
+
+        .box {
+            padding: 15px;
+            margin: 10px;
+            border: 1px solid black;
+            background-color: lightblue;
+        }
+
+        .fixed-size {
+            width: 200px;
+            height: 150px;
+            background-color: lightgreen;
+            overflow: hidden;
+        }
+
+        .scrollable {
+            width: 200px;
+            height: 150px;
+            background-color: lightcoral;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Centered Heading</h1>
+    <h2>Green Heading</h2>
+    <p>This is a regular paragraph with normal font size.</p>
+    <p class="bold-text">This is a bold paragraph.</p>
+
+    <div class="background-container">
+        <h2>Container with Background Color and Image</h2>
+        <p>This container has both a background color and image.</p>
+    </div>
+
+    <div class="box">
+        <p>This box has padding, margin, and a border.</p>
+    </div>
+
+    <div class="box">
+        <p>Another box with similar styles.</p>
+    </div>
+
+    <div class="fixed-size">
+        <p>This is a fixed-size box with hidden overflow content.</p>
+    </div>
+
+    <div class="scrollable">
+        <p>This box has scrollable content because the overflow is visible.</p>
+        <p>There is more content that doesn't fit in the box.</p>
+    </div>
+
+</body>
+</html>
