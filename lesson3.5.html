@@ -1,0 +1,49 @@
+#<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Block and Inline Elements</title>
+  <style>
+    /* Task 2 */
+    img {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    p {
+      display: inline;
+    }
+
+    /* Task 3 */
+    .container {
+      display: block;
+      margin: 20px;
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    .container p,
+    .container img,
+    .container a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Task 1 -->
+  <h1>This is a header</h1>
+  <p>This is a paragraph</p>
+  <div>This is a div container</div>
+  <img src=https://i.pinimg.com/736x/3a/63/ca/3a63caa7b55d16389dab6815e732dc66.jpg alt="Placeholder Image">
+
+  <!-- Task 3 -->
+  <div class="container">
+    <p>Paragraph inside container</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoEeznYR1gf3xjZUn9tYFNWp8thd4uiudwFw&s" alt="Another Image">
+    <a href="https://www.youtube.com/watch?v=v5yYDKEVItE">A link inside the container</a>
+  </div>
+
+</body>
+</html>
