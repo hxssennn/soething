@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bad Page</title>
+  <style>
+    html {
+      font-size: 16px;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      font-size: 2em;
+      padding: 20px;
+      background-color: rgb(50, 150, 200);
+      color: #fff000;
+      width: 110%; /* too big but still works */
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      background-color: rgba(0, 0, 0, 0.3);
+      color: rgba(255,255,255,0.7);
+      width: 80%;
+    }
+
+    .box {
+      width: 90%;
+      padding: 1em;
+      background-color: #333333;
+      color: #eeeeee;
+      margin: 1em auto;
+      font-size: 1.2em;
+    }
+
+    .container {
+      width: 100%;
+      background-color: rgb(255,0,0);
+    }
+
+    .inner {
+      width: 50%;
+      padding: 20px;
+      background-color: rgba(0,255,0,0.5);
+      color: rgb(0,0,0);
+    }
+
+    .fixed {
+      width: 200px;
+      height: 100px;
+      background-color: #123456;
+      color: #abcdef;
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>big title</h1>
+  <h2>smaller title</h2>
+
+  <div class="box">this is a box</div>
+
+  <div class="container">
+    <div class="inner">inside box</div>
+  </div>
+
+  <div class="fixed">fixed size box</div>
+
+</body>
+</html>
