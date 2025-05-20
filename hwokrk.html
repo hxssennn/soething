@@ -1,75 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Bad Page</title>
+  <meta charset="UTF-8" />
+  <title>HOMEWORKKKK</title>
   <style>
-    html {
-      font-size: 16px;
-    }
-
     body {
-      margin: 0;
-      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 50px;
       background-color: #f0f0f0;
     }
 
-    h1 {
-      font-size: 2em;
-      padding: 20px;
-      background-color: rgb(50, 150, 200);
-      color: #fff000;
-      width: 110%; /* too big but still works */
+    input {
+      font-size: 25px;
+      padding: 8px;
+      color: rgb(10, 12, 98);
     }
 
-    h2 {
-      font-size: 1.5rem;
-      background-color: rgba(0, 0, 0, 0.3);
-      color: rgba(255,255,255,0.7);
-      width: 80%;
+    input:focus {
+      border-color: burlywood;
+      color: rgb(0, 0, 0);
     }
 
-    .box {
-      width: 90%;
-      padding: 1em;
-      background-color: #333333;
-      color: #eeeeee;
-      margin: 1em auto;
-      font-size: 1.2em;
+    button {
+      padding: 10px;
+      font-size: 16px;
+      margin-top: 10px;
+      color: rgb(10, 12, 98);
+      cursor: pointer;
     }
 
-    .container {
-      width: 100%;
-      background-color: rgb(255,0,0);
+    button:hover {
+      color: rgb(35, 154, 120);
     }
 
-    .inner {
-      width: 50%;
-      padding: 20px;
-      background-color: rgba(0,255,0,0.5);
-      color: rgb(0,0,0);
+    li {
+      font-size: 12px;
+      padding: 18px;
     }
 
-    .fixed {
-      width: 200px;
-      height: 100px;
-      background-color: #123456;
-      color: #abcdef;
-      font-size: 2em;
+    li:first-child {
+      color: darkkhaki;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    li:last-child {
+      color: darkkhaki;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    div a:hover {
+      color: red;
+    }
+
+    div p:nth-child(odd) {
+      color: blue;
+      font-weight: bold;
+    }
+
+    .content-block p:first-child:hover {
+      background-color: yellow;
+    }
+
+    .content-block p:last-child:focus {
+      outline: 2px solid green;
+      background-color: lightgreen;
     }
   </style>
 </head>
 <body>
 
-  <h1>big title</h1>
-  <h2>smaller title</h2>
+  <h1>Apply for deforestation in Nottingham Forest below</h1>
 
-  <div class="box">this is a box</div>
+  <form>
+    <input type="text" placeholder="Type something here" />
+    <br />
+    <button type="submit">Press this please</button>
+  </form>
 
-  <div class="container">
-    <div class="inner">inside box</div>
+  <h1>List styling</h1>
+  <ul>
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Carrots</li>
+    <li>Dates</li>
+    <li>Eggs</li>
+  </ul>
+
+  <h1>Task 3: Pseudo-classes on blocks</h1>
+
+  <div>
+    <p>First paragraph (odd)</p>
+    <p>Second paragraph (even)</p>
+    <p>Third paragraph (odd)</p>
+    <a href="#">Hover over me!</a>
   </div>
 
-  <div class="fixed">fixed size box</div>
+  <div>
+    <p>Another first paragraph (odd)</p>
+    <p>Another second paragraph (even)</p>
+    <a href="#">And me too!</a>
+  </div>
+
+  <h1>Task 4: Combining pseudo-classes</h1>
+
+  <div class="content-block" tabindex="0">
+    <p tabindex="0">First child paragraph (hover me)</p>
+    <p>Middle paragraph</p>
+    <p tabindex="0">Last child paragraph (focus me)</p>
+  </div>
+
+  <div class="content-block" tabindex="0">
+    <p tabindex="0">Another first child (hover me)</p>
+    <p>Another middle paragraph</p>
+    <p tabindex="0">Another last child (focus me)</p>
+  </div>
 
 </body>
 </html>
