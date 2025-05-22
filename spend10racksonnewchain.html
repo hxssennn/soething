@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>blahblahblahdothomeworks</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .box {
+      padding: 10px;
+      margin: 10px 0;
+      border: 2px solid black;
+    }
+
+    /* Static (default) */
+    .static-box {
+      background-color: #e0e0e0;
+      position: static;
+    }
+
+    /* Relative */
+    .relative-box {
+      background-color: #add8e6;
+      position: relative;
+      top: 20px;
+      left: 20px;
+    }
+
+    /* Absolute */
+    .container {
+      position: relative;
+      background-color: #ffe4e1;
+      padding: 50px;
+    }
+
+    .absolute-box {
+      background-color: #ffb6c1;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    /* Fixed */
+    .fixed-box {
+      background-color: #90ee90;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+    }
+
+    /* Sticky */
+    .sticky-header {
+      background-color: #ffffe0;
+      position: sticky;
+      top: 0;
+      padding: 10px;
+      border-bottom: 2px solid gold;
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS Positioning is Like Magic (kinda)</h1>
+
+  <!-- Static -->
+  <h2>1. Static (default)</h2>
+  <div class="box static-box">asdkjhasd Box 1</div>
+  <div class="box static-box">zxcvbnm Box 2</div>
+  <p>This is the default. Boxes just go down like spaghetti noodles 🍝</p>
+
+  <!-- Relative -->
+  <h2>2. Relative</h2>
+  <div class="box relative-box">ajksdhf I'm nudged a bit</div>
+  <p>I look like I moved, but I still live in the same spot on the page. 👻</p>
+
+  <!-- Absolute -->
+  <h2>3. Absolute</h2>
+  <div class="container">
+    <div class="box absolute-box">blorp I'm floating!</div>
+    <p>Container stuff: lkajsdhf jkashdf.</p>
+  </div>
+  <p>This box is like “yo I don’t care about flow” and just floats to a spot.</p>
+
+  <!-- Fixed -->
+  <h2>4. Fixed</h2>
+  <div class="box fixed-box">📌 Always here lol</div>
+  <p>Scroll down and this thing follows you like a loyal dog 🐶</p>
+  <div style="height: 1000px;"></div>
+
+  <!-- Sticky -->
+  <h2>5. Sticky</h2>
+  <h3 class="sticky-header">🥶 Sticky Header 1 - asdfghj</h3>
+  <p>Keep scrollin'... it sticks to the top when you pass it 👀</p>
+  <p>loremLOREMloremLORME</p>
+  <p>akslhdflaksjdhfkjahsd</p>
+  <h3 class="sticky-header">🍯 Sticky Header 2 - qwertyuiop</h3>
+  <p>more blah blah blah blah</p>
+  <p>zxcvzxcvzxcv</p>
+  <p>Scroll some moreeee 🌪️</p>
+
+</body>
+</html>
