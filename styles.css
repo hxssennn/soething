@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body {
+  height:1440px;
+    margin: auto;
+    background-color:  #252525; 
+  /* font-family: sans-serif;
+  margin: auto;
+  padding: 0;
+  width: 1440px; */
+}
+
+/* The whole nav bar */
+.navbar {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 403;
+  height: 67;
+  left: 987px;
+}
+
+/* Logo image */
+.logo img {
+  width: 160px;
+  height: 36px;
+  top: 17px;
+  left: 50px;
+}
+
+/* Links container */
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+/* Each link */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  
+
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #118da8; 
+}
+image{ 
+    width: 650px;
+    margin-left: 70px;
+object-fit: cover;
+}
+
+.text-image{
+    width: 650px;
+    margin-right: 70px;
+    margin-left: 60px;
+    gap: 40px;
+ 
+}
+.main-section{
+  height: 1300px;
+    background-color: #252525;
+    margin: 0;
+  
+    gap: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
